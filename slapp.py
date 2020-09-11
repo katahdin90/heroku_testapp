@@ -18,7 +18,7 @@ map_data = pd.DataFrame(
 st.map(map_data)
 
 st.write("Using external data file and Pandas Scatter")
-plt.plot(test_table['Observation'],test_table['Observation 2'],kind="scatter")
+plt.scatter(test_table['Observation'],test_table['Observation 2'])
 plt.title("Made Up Data")
 plt.ylabel("Made Up Y-Axis")
 plt.xlabel("Made Up X Axis")
