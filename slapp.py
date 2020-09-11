@@ -18,4 +18,5 @@ map_data = pd.DataFrame(
 st.map(map_data)
 
 st.write("Using external data file and Pandas Scatter")
-st.write(plt.plot(test_table['Observation'],test_table['Observation 2']))
+plt.plot(test_table['Observation'],test_table['Observation 2'])
+st.pyplot()
