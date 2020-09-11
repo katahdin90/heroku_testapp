@@ -19,4 +19,7 @@ st.map(map_data)
 
 st.write("Using external data file and Pandas Scatter")
 plt.plot(test_table['Observation'],test_table['Observation 2'],kind="scatter")
+plt.title("Made Up Data")
+plt.ylabel("Made Up Y-Axis")
+plt.xlabel("Made Up X Axis")
 st.pyplot()
